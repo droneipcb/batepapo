@@ -16,7 +16,7 @@ $username = $_SESSION['login_user'];
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "aluno123";
-$db = "otariobank";
+$db = "batepapo";
 
 $conn = new mysqli($dbhost, $dbuser, $dbpass,$db)
 	or die("Ligacao a base de dados falhou: %s\n". $conn -> error);
