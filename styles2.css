@@ -1,0 +1,103 @@
+body {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-color: aquamarine;
+}
+
+h1 {
+font-family:Lucida, Helvetica, sans-serif;
+font-size:36px;
+color: darkolivegreen;
+margin-top: 20px;	
+}
+
+img#logout {
+    width: 80px;
+    height: 30px;
+    display: block;
+    /* margin-left: auto;*/
+    margin-right: 10px;
+    float:right;
+}
+
+div#menu_div {
+    position: fixed;
+    width: 0px;
+    top: 0px;
+    left: 0px;
+    height: 1500px;
+    background-color: rgb(26, 39, 4);
+}
+
+
+p.menuitem {
+    color: white;
+    margin-left: 5px;    
+}
+
+p.menuitem:hover {
+    color: lightcoral;
+    text-decoration: underline;    
+}
+
+div#conteudo {
+    position: fixed;
+    width: 500px;
+    top: 0px;
+    left: 250px;
+    height: 1500px;
+    background-color: aquamarine;
+}
+
+textarea#mensagem {
+    width: 90%;
+    height: 150px;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  img#upload-img {
+    width: 100px;
+    height: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+texto#username {
+    color: white;
+    font-size:26px;
+    margin-left: 10px;    
+    margin-top: 10px;    
+}
+
+useritem {
+    color: darkolivegreen;
+    font-size:26px;
+}
+
+div.center_content {
+    text-align: center;
+}
+
+div.message {
+    background-color: lightcyan;
+    border-radius: 3px;
+    border-style:single;
+    box-shadow: 2px 2px 2px black;
+    padding: 10px;
+    position:relative; 
+    margin:auto; 
+}
